@@ -8,5 +8,7 @@ public class StackMain {
     stack.add(13);
     stack.add(14);
     stack.display();
+    stack.pop(14);
+
     }
 }

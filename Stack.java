@@ -11,5 +11,8 @@ public class Stack<T> {
     public  void display(){
         linkedList.display();
     }
+    public void pop(T data){
 
+        linkedList.DeleteLastElement(data);
+    }
 }
